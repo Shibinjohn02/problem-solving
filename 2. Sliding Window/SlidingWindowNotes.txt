@@ -1,0 +1,14 @@
+
+# A fixed sliding window means: Reuse previous window result
+
+
+# Interview tip (important)
+
+If you ever see:
+
+“substring of size k”
+“maximum / minimum”
+
+Think immediately: Initialize → slide → add → remove
+
+# Sliding window = don’t recompute the window — update it.

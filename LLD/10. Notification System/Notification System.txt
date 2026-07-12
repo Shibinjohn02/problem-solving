@@ -1,0 +1,68 @@
+
+Flow:
+User → NotificationService → Observers
+
+Step 1: Identify Entities
+
+- User
+- NotificationService (Subject Interface)
+- Observer (Observer Interface)
+- EmailNotification
+- SMSNotification
+- PushNotification
+
+
+Step 2: Add Responsibilities:
+
+User:
+- trigger notification event
+
+NotificationService:
+- subscribe(observer)
+- unsubscribe(observer)
+- notify()
+
+Observer:
+- update(message)
+
+EmailNotification:
+- send email notification
+
+SMSNotification:
+- send sms notification
+
+PushNotification:
+- send push notification
+
+
+Step 3: Connect them: How objects are related to each other:
+
+User triggers NotificationService
+
+NotificationService HAS-A Observers
+
+EmailNotification IS-A Observer
+SMSNotification IS-A Observer
+PushNotification IS-A Observer
+
+Step 4: Add Features / Attributes:
+
+User:
+- id
+- name
+
+NotificationService:
+- observers
+- message
+
+Observer:
+(no attributes needed)
+
+EmailNotification:
+- email
+
+SMSNotification:
+- phoneNumber
+
+PushNotification:
+- deviceId

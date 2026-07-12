@@ -1,0 +1,37 @@
+
+# EASY
+
+1. Climbing Stairs (70) - ✅ (SELF) 0 ms Beats 100.00%
+2. Min Cost Climbing Stairs (746) - ✅ (HALF SELF) 2 ms Beats 55.29%
+
+# MEDIUM
+
+3. House Robber (198) - ✅ (HALF SELF) 0 ms Beats 100.00%
+4. House Robber II (213) - ✅ 0 ms Beats 100.00%
+5. Delete and Earn (740)
+6. Coin Change (322)
+7. Perfect Squares (279)
+8. Decode Ways (91)
+9. Word Break (139)
+
+# HARD
+
+10. Burst Balloons (312)
+
+
+
+## Notes:
+
+Har DP problem par ye checklist follow karo:
+1. State: "Meri subproblem kya hai?" (e.g., dp[i] = answer till index i).
+2. Base Case: Sabse choti problem ka answer kya hai? (e.g., dp[0], dp[1]).
+3. Transition: Current answer previous states se kaise banega? (e.g., dp[i] = dp[i-1] + dp[i-2]).
+4. Compute: Memoization (recursion + cache) ya Tabulation (loop) se answers build karo.
+5. Final Answer: Kis state me final result milega? (e.g., dp[n]).
+
+
+Ek line me yaad rakhna:
+State batata hai "main kis subproblem ko solve kar raha hoon."
+Base case batata hai "kis answer se shuru karna hai."
+Transition batata hai "current answer previous answers se kaise banega."
+Memoization recursion ke saath cache use karta hai, aur Tabulation loop se chhote answers build karke final answer tak pahunchta hai.

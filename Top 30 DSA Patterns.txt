@@ -1,0 +1,49 @@
+
+### Top 30 DSA Patterns
+
+### FOUNDATION
+
+1. Two Pointers ✅
+2. Sliding Window ✅
+3. Prefix Sum ✅
+4. Hashing / Frequency Maps ✅
+5. Kadane’s Algorithm ✅
+6. Binary Search on Array ✅
+7. Binary Search on Answer ✅
+8. Fast & Slow Pointers ✅
+9. Sorting + Greedy ✅
+10. Monotonic Stack
+
+### CORE STRUCTURES
+
+11. Monotonic Queue 💎
+12. Linked List Reversal
+13. Merge / Split Linked List
+14. In-place Array Modification
+15. Backtracking Basics 💎
+16. Subsets / Permutations
+17. Graph BFS 💎
+18. Graph DFS 💎
+19. Topological Sort
+20. Union–Find (Disjoint Set)
+
+### ADVANCED
+
+21. Dijkstra
+22. 1D Dynamic Programming 
+23. 2D DP
+24. Knapsack / Subset Sum DP
+25. LIS / LCS Patterns
+26. DP on Trees
+27. Interval Problems
+28. Heaps / Priority Queue 💎
+29. Trie
+30. Bit Manipulation & Bitmasking
+
+---
+
+### Resources:
+
+https://leetcode.com/discuss/post/5886397/dsa-patterns-you-need-to-know-by-anubhav-x7og/
+https://manralai.medium.com/only-15-patterns-to-master-any-coding-interview-570a3afc9042
+https://algomaster.io/practice/dsa-patterns

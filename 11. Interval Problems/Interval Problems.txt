@@ -1,0 +1,6 @@
+
+1. Merge Intervals (56) - ✅ (SELF) 12 ms Beats 26.43%
+2. Insert Interval (57) - ✅ 3 ms Beats 57.03%
+3. Non-overlapping Intervals (435) - ✅
+4. Minimum Number of Arrows to Burst Balloons (452) - ✅ 93 ms Beats 28.88%
+5. Interval List Intersections (986) - Revisit After First Pass 🔄

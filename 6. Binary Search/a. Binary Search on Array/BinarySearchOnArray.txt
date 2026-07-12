@@ -1,0 +1,36 @@
+
+
+EASY (Foundation — Must Do)
+
+1. Binary Search (704) - ✅ (SELF) 0 ms 100.00%
+2. First Bad Version (278) - ✅ 0 ms 100.00%
+3. Search Insert Position (35) - ✅ 0 ms 100.00%
+4. Guess Number Higher or Lower (374) - ✅ (SELF) 28 ms Beats 99.18%
+
+
+MEDIUM (Real Interview Level)
+
+1. Find Minimum in Rotated Sorted Array (153) - ✅ (SELF) 0 ms Beats 100.00%
+2. Search in Rotated Sorted Array (33) - ✅ 0 ms Beats 100.00%
+3. Find Peak Element (162) - ✅ (SELF) 0 ms Beats 100.00%
+4. Peak Index in a Mountain Array (852) - ✅ (SELF) 0 ms Beats 100.00%
+5. Search a 2D Matrix (74) - ✅ 0 ms Beats 100.00%
+6. Find First and Last Position of Element (34) - ✅ 0 ms Beats 100.00%
+
+
+HARD
+
+1. Median of Two Sorted Arrays (4) - Watched Video Didn't understood much. Will revist later
+
+
+### Notes:
+
+One Line Memory Trick:
+If mid could be the answer,
+never throw it away.
+
+In boundary problems:
+If mid is a valid candidate,
+we keep it in the search space.
+That’s why:
+right = mid;

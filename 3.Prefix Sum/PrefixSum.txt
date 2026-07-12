@@ -1,0 +1,74 @@
+
+
+
+### EASY
+
+1. Running Sum of 1d Array (1480) - ✅ (SELF) 0 ms Beats 100.00%
+2. Range Sum Query – Immutable (303) - ✅ (SELF)  72 ms Beats 23.23%
+3. Find Pivot Index (724) - ✅ 164 ms Beats 12.72%
+4. Product of Array Except Self (238) - ✅
+5. Binary Subarrays With Sum (930) - ✅
+
+
+### MEDIUM
+
+1. Subarray Sum Equals K (560) - ✅ (SELF) 14 ms Beats 87.45%
+2. Subarray Sums Divisible by K (974) - ✅
+3. Continuous Subarray Sum (523) - ✅ 34 ms Beats 30.28%
+4. Contiguous Array (525)  - ✅ 26 ms Beats 26.67%
+5. Count Number of Nice Subarrays (1248) - ✅ 32 ms Beats 43.48%
+6. Make Sum Divisible by P (1590) - ✅
+
+
+### HARD
+
+1. Shortest Subarray with Sum at Least K (862)
+
+
+🧠 One Mental Switch to Remember
+
+Sliding Window asks:
+“Can I shrink?”
+
+Prefix Sum asks:
+“What happened BEFORE?”
+
+If shrinking is not possible → think prefix.
+
+
+Sliding Window / Two Pointer
+
+“I move pointers and maintain a window.”
+
+Prefix Sum
+
+“I precompute history so I can answer range questions instantly.”
+
+Prefix sum problems are about range contribution, not motion.   
+
+| Pattern        | Core Question                                    |
+| -------------- | ------------------------------------------------ |
+| Two Pointer    | Can I adjust boundaries dynamically?             |
+| Sliding Window | What makes a window valid/invalid?               |
+| Prefix Sum     | Can I precompute history to avoid recomputation? |
+
+
+Note: End fix karo, past me matching condition dhoondho.
+
+Is index pe khatam hote hue
+kitne valid subarrays ban rahe hain?
+
+Sabse pehle ek truth samjho 🧠
+
+Prefix sum approach mein hum start ko dhoondhte nahi hain.
+Start khud-ba-khud mil jaata hai.
+
+👉 Prefix sum koi range nahi hota
+👉 Prefix sum sirf ek TOTAL hota hai
+
+PrefixSum[i] ka matlab:
+
+“Index 0 se leke index i tak ka total sum”
+
+बस.
+Isme start–end ka koi concept hi nahi hota.

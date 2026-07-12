@@ -1,0 +1,29 @@
+
+# Requirements Gathering
+
+## Extensible
+
+1. Kya future me naye vehicle types add ho sakte hain?
+   - Car, Bike, Truck, SUV etc.
+
+2. Kya multiple payment methods support karne hain?
+   - UPI, Card, Cash etc.
+
+3. Kya pricing strategy future me change ho sakti hai?
+   - Hourly, Daily, Weekend pricing
+
+
+## Dynamic
+
+1. Kya vehicles dynamically available/unavailable honge?
+
+2. Kya users advance booking kar sakte hain?
+
+3. Kya system multiple rental locations support karega?
+
+
+## Concurrency
+
+1. Kya same vehicle ko same time pe multiple users book kar sakte hain?
+
+2. Kya booking ke time locking needed hai to avoid double booking?

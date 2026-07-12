@@ -1,0 +1,50 @@
+
+Step 1: Identify Entities:
+
+- Car
+- Engine
+- Wheels
+
+Note: There could many others entities like speaker etc
+
+Step 2: Add Responsibilities:
+
+Car:
+- start()
+- stop()
+- drive()
+- accelerate()
+
+Engine:
+- on()
+- off()
+
+Wheels:
+- rotate()
+- stop()
+
+Step 3: Connect them:
+
+- HAS-A: 
+Car HAS-A Engine
+Car HAS-A List of Wheels
+
+- IS-A: Not needed here
+
+Step 4: Add Features/Attributes:
+
+Attributes:
+
+Car:
+- name
+- color
+- price
+- carNumber
+
+Engine:
+- type
+- horsepower
+
+Wheels:
+- size
+- grip

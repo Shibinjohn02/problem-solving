@@ -1,0 +1,100 @@
+
+Flow:
+User → Enter → Collect Ticket → Park Vehicle → Payment → Exit
+
+Step 1: Identify Entities
+
+- Vehicle
+- Car
+- Bike
+- Truck
+
+- ParkingSpot
+- ParkingLot
+- Ticket
+
+- Payment
+- PaymentStrategy
+- FareStrategy
+
+- EntryGate
+- ExitGate
+- ParkingManager
+
+Step 2: Add Responsibilities:
+
+Vehicle:
+(no responsibilities needed)
+
+ParkingSpot:
+- parkVehicle()
+- removeVehicle()
+- isAvailable()
+
+ParkingLot:
+- addParkingSpot()
+- getParkingSpots()
+
+EntryGate:
+- generateTicket()
+
+ExitGate:
+- processExit()
+
+ParkingManager:
+- parkVehicle(vehicle)
+- removeVehicle(ticket)
+- findAvailableSpot()
+
+Payment:
+- processPayment()
+
+PaymentStrategy:
+- pay(amount)
+
+FareStrategy:
+- calculateFare(ticket)
+
+
+Step 3: Connect them: How objects are related to each other:
+
+ParkingLot HAS-A list/array of ParkingSpots
+ParkingLot HAS-A EntryGate
+ParkingLot HAS-A ExitGate
+ParkingLot HAS-A ParkingManager
+Payment HAS-A PaymentStrategy
+
+ParkingManager HAS-A ParkingLot
+ParkingManager accesses ParkingSpots
+(via ParkingLot or directly)
+
+Car IS-A Vehicle
+Bike IS-A Vehicle
+Truck IS-A Vehicle
+
+Step 4: Add Features / Attributes:
+
+Ticket: 
+- ticketNo
+- entryTime
+- vehicleType
+- parkingSpot
+
+Vehicle:
+- model
+- licenseNumber
+
+Payment:
+- amount
+- paymentStrategy
+
+EntryGate:
+- gateNumber
+
+ExitGate:
+- gateNumber
+
+ParkingSpot:
+- id
+- occupied
+- vehicle

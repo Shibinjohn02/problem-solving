@@ -1,0 +1,59 @@
+
+# EASY
+
+1. Flood Fill (733) - ✅ 0 ms Beats 100.00%
+2. Find if Path Exists in Graph (1971) - ✅ 1137 ms Beats 29.72%
+
+# MEDIUM
+
+3. Number of Islands (200) - ✅ (SLEF) 95 ms Beats 14.29%
+4. Max Area of Island (95) - ✅ (SLEF) 11 ms Beats 21.95%
+5. Rotting Oranges (994) - ✅ 15 ms Beats 17.24%
+6. 01 Matrix (542) - ✅ 61 ms Beats 75.71%
+7. Nearest Exit from Entrance in Maze (1926) - ✅ (HALF SLEF) 23 ms Beats 83.63%
+8. Open the Lock (752) - ✅ 124 ms Beats 57.64%
+9. Count Sub Islands (1905) - ✅ (HALF SLEF) 117 ms Beats 24.14%
+10. Surrounded Regions - ✅ (SELF) 91 ms Beats 5.13%
+
+# HARD
+
+11. Word Ladder (127) - ✅ (SLEF) 131 ms Beats 57.57%
+12. Shortest Path in a Grid with Obstacles Elimination (1293) - ✅ 313 ms Beats 14.86%
+
+
+# Success Metric:
+
+Don't aim for:
+
+I solved every question myself.
+
+Aim for:
+
+Can I identify:
+- Queue?
+- Visited?
+- Level traversal?
+- Multi-source BFS?
+- Shortest path in unweighted graph?
+
+
+## BFS Recognition Rules:
+Use BFS when:
+- Shortest path in unweighted graph
+- Level-by-level traversal
+- Minimum number of moves
+- Nearest distance
+- Multiple sources spreading simultaneously
+
+
+| Concept              | Problem               |
+| -------------------- | --------------------- |
+| Basic BFS            | Flood Fill            |
+| Graph Traversal      | Path Exists           |
+| Connected Components | Number of Islands     |
+| Multi-source BFS     | Rotting Oranges       |
+| Distance Propagation | 01 Matrix             |
+| Shortest Path        | Nearest Exit          |
+| State Space BFS      | Open the Lock         |
+| String State Graph   | Word Ladder           |
+| Extended State BFS   | Obstacles Elimination |

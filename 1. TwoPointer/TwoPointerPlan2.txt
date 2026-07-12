@@ -1,0 +1,105 @@
+
+✅ 15 Easy → Build intuition
+✅ 8 Medium → Build pattern recognition
+✅ 2 Hard → Expand thinking (NOT for solving)
+
+This is the same structure used by top candidates preparing for Stripe, Razorpay, Atlassian, Adobe, etc.
+
+# ⭐ TWO POINTER MASTER PLAN (Follow in this exact order)
+
+# 🟩 PHASE 1 — EASY (15 problems)
+
+Goal: Build INTUITION
+Target: 10 self + 5 with solution → PERFECT.
+
+### Easy (you already solved 5) — keep them checked
+
+1. Move Zeroes — ✅
+2. Remove Element — ✅
+3. Squares of a Sorted Array — ✅
+4. Merge Sorted Array — ✅
+5. Reverse Only Letters — ✅
+6. Remove Duplicates from Sorted Array — ✅ (NOT SELF)
+
+### Now solve these additional 10 EASY
+
+6. Valid Palindrome - ✅ (SELF)
+7. Reverse String - ✅ (SELF)
+8. Reverse Vowels of a String - ✅ (SELF)
+9. Is Subsequence - ✅ (SELF)
+10. Array Partition - ✅ 42 ms
+11. Sort Array by Parity - ✅ (SELF) 2 ms
+12. Sort Array by Parity II - ✅
+13. Maximum Consecutive Ones - ✅ (SELF) 1 ms Beats 92.19%
+14. Check if N and Its Double Exist - ✅ (SELF) 0 ms Beats 100.00%
+15. Height Checker (sorting + index tracking) ✅ (SELF) 0 ms Beats 100.00%
+
+👉 IMPORTANT RULE:
+If stuck for more than 10 minutes, see hint → then attempt again → if still stuck → watch solution.
+Your goal is pattern loading, not self-solves.
+
+# 🟦 PHASE 2 — MEDIUM (8 problems)
+
+Goal: Build PATTERN RECOGNITION
+Target: Try 2 → Solve 6 with solution (normal & expected!)
+
+### Already Solved (3)
+
+1. Two Sum II — sorted — ✅
+2. 3Sum — ✅
+3. Container With Most Water — ✅
+
+### Remaining Medium Problems (solve these next)
+
+4. Remove Duplicates from Sorted Array II ✅
+5. Partition Labels ✅ (SELF) 6 ms Beats 49.26%
+6. 3Sum Closest ✅ (SELF) 16 ms Beats 34.68%
+7. Fruit Into Baskets - Tried the brute-force approach; it passed basic test cases but resulted in TLE. Will revisit later
+8. Minimum Size Subarray Sum - Tried the brute-force approach; it passed basic test cases but resulted in TLE. Will revisit later
+9. Valid Palindrome II
+
+👉 Important:
+Do NOT try to fully solve all Medium yourself.
+Your success metric = understanding patterns, not solving.
+
+# 🟥 PHASE 3 — HARD (2 problems only)
+
+⚠️ Do NOT try to solve yourself. Only watch & understand.
+These are to grow your boundaries.
+
+### Recommended 2 Hard
+
+1. Trapping Rain Water
+2. Minimum Window Substring
+
+👉 Focus ONLY on:
+
+* Why pointers move
+* How structure updates
+* How solution flows
+
+Not code.
+
+# 🧠 What You Will Master After This Plan
+
+After these 25 problems, you will automatically understand:
+
+✔ When to use left/right pointers
+✔ When to use fast/slow
+✔ When to shrink or expand window
+✔ When to sort + two pointers
+✔ How to find pair/triplet with target
+✔ How to detect patterns like:
+
+* "Move both"
+* "Move one"
+* "Skip duplicates"
+* "Shrink window when invalid"
+
+This intuition will make ALL following patterns easier (sliding window, binary search, intervals, linked list).
+
+
+10 mins: Write down pointer movement reason in words.
+Q. Why pointer moved
+Q. When condition became invalid
+Q. What fixed it

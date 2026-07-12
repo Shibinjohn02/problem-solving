@@ -1,0 +1,27 @@
+
+# EASY
+
+1. Find if Path Exists in Graph (1971) - ✅ 643 ms Beats 71.81%
+2. Flood Fill 1 (733) - ✅ (SELF) ms Beats 49.63%
+
+# MEDIUM
+
+3. Number of Islands (200) - ✅ (SELF) 67 ms Beats 45.50%
+4. Max Area of Island (95) - ✅ (SELF) 18 ms Beats 9.06%
+5. Number of Provinces (547) - ✅ 1 ms Beats 91.14%
+6. Count Sub Islands (1905) - ✅ (HALF SLEF) 91 ms Beats 25.86%
+7. Surrounded Regions - ✅ (SELF) 16 ms Beats 16.64%
+
+# HARD
+
+8. Longest Increasing Path in a Matrix (329) - ✅ 21 ms Beats 72.36% (Only understood the concept but couldn't solve by myself)
+9. Critical Connections in a Network - Revisit After First Pass 🔄
+
+
+## Recognition Rules
+Use DFS when:
+
+- Explore an entire component
+- Go as deep as possible
+- Recursively visit neighbors
+- Need information from an entire region/component

@@ -1,0 +1,78 @@
+
+User → Card → ATM → Bank → Account
+
+Step 1: Identify Entities:
+
+- ATM
+- Card
+- User
+- Bank
+- Account
+- CashDispenser
+
+Step 2: Add Responsibilities:
+
+ATM:
+- insertCard(card)
+- ejectCard()
+- authenticate()
+- withdraw()
+- deposit()
+- showBalance()
+
+Bank:
+- authenticate(card, pin)
+- getBalance(account)
+- debit(account, amount)
+- credit(account, amount)
+
+Account:
+- maintain balance
+
+CashDispenser:
+- dispenseCash(amount)
+
+Card:
+- holds card details
+
+User:
+- owns card
+
+Step 3: Connect them:
+
+- HAS-A: 
+User HAS-A Card
+Card linked-to Account
+Bank HAS-A Account
+ATM interacts-with Bank
+ATM HAS-A CashDispenser
+
+- IS-A: Not needed here
+
+Step 4: Add Features/Attributes:
+
+ATM:
+- id
+- location
+- cashAvailable
+
+Card:
+- cardNumber
+- holderName
+- expiryDate
+- pin
+
+Account:
+- accountNumber
+- balance
+
+Bank:
+- name
+- branchCode
+
+CashDispenser:
+- cashAvailable
+
+User:
+- id
+- name

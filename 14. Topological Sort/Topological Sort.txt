@@ -1,0 +1,15 @@
+
+
+# MEDIUM
+
+1. Course Schedule (207) - ✅ 17 ms Beats 30.21%
+2. Course Schedule II (210) - ✅ 10 ms Beats 64.77%
+3. Find Eventual Safe States (802) - ✅ (SELF) 8 ms Beats 95.21%
+4. Loud and Rich (851) - ✅ 16 ms Beats 59.26%
+5. All Ancestors of a Node in a Directed Acyclic Graph - ✅ 109 ms Beats 77.27%
+
+
+# HARD
+
+6. Sort Items by Groups Respecting Dependencies - Revisit After First Pass 🔄
+7. Build a Matrix With Conditions - Revisit After First Pass 🔄

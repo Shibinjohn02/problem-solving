@@ -1,0 +1,61 @@
+
+Logging System = "system ke actions ka history store karna"
+
+Example:
+- "User logged in"
+- "Payment failed"
+- "Server error"
+- "API called"
+
+Flow: Application → Logger → Log → LogDestination
+
+Step 1: Identify Entities:
+
+- Logger
+- Log
+- LogLevel
+- LogDestination
+
+
+Step 2: Add Responsibilities:
+
+Logger:
+- log(level, message)
+- info(message)
+- error(message)
+- warning(message)
+
+Log
+- holds log data
+
+LogLevel
+- defines log type
+
+LogDestination
+- write(log)
+
+Step 3: Connect them: How objects are related to each other:
+Logger creates Log
+Logger uses LogLevel
+Logger sends Log to LogDestination
+
+HAS-A Relations:
+Logger HAS-A LogDestination
+
+Step 4: Add Features / Attributes:
+
+Logger:
+- destinations
+
+Log:
+- message
+- level
+- timestamp
+
+LogLevel:
+- INFO
+- ERROR
+- WARNING
+
+LogDestination:
+- type (console/file/database)

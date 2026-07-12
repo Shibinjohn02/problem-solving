@@ -1,0 +1,31 @@
+
+# FINAL DSA LIST (High ROI – Trust This)
+
+## PHASE 1 — FOUNDATION (You already did most)
+
+1. Two Pointers → COMPLETE ✅
+2. Sliding Window → COMPLETE ✅
+3. Prefix Sum → COMPLETE ✅
+4. Hashing / Frequency Maps → COMPLETE ✅
+5. Kadane’s Algorithm → COMPLETE ✅
+6. Binary Search (Array + Answer) → COMPLETE ✅
+7. Fast & Slow Pointers → COMPLETE ✅
+8. Sorting + Greedy → COMPLETE ✅
+
+## PHASE 2 — CORE PATTERNS (Very Important)
+
+9. Monotonic Stack → COMPLETE ✅
+10. Heaps / Priority Queue → COMPLETE ✅
+11. Interval Problems → COMPLETE ✅
+
+## PHASE 3 — GRAPHS & TREES (Must Do)
+
+12. Graph BFS → COMPLETE ✅
+13. Graph DFS → COMPLETE ✅
+14. Topological Sort → COMPLETE ✅
+
+## PHASE 4 — DYNAMIC PROGRAMMING
+
+15. 1D Dynamic Programming
+16. Knapsack / Subset DP
+17. LIS / LCS Patterns

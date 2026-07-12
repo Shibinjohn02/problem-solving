@@ -1,0 +1,8 @@
+
+
+1. Contains Duplicate (247) - ✅ (SELF) 16 ms Beats 74.61%
+2. Valid Anagram (242) - ✅ (SELF) 19 ms Beats 33.26%
+3. Two Sum (1) (revisit with hashmap thinking) - ✅ (SELF) 5 ms Beats 47.48%
+4. Subarray Sum Equals K (important) - ✅
+5. Longest Consecutive Sequence (128) - ✅
+6. First Unique Character (387) - Revisit After First Pass 🔄

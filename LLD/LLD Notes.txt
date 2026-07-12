@@ -1,0 +1,97 @@
+
+## LLD Golden Notes:
+
+Person is a Human → IS-A
+Person has a Heart → HAS-A
+Person has a Phone → HAS-A
+
+1. Strategy: Multiple ways to do same thing
+2. Decorator: Add layers (logging, auth)
+3. Factory: Object creation logic messy
+4. Observer: One change → many reactions
+
+
+## Jab bhi confusion ho:
+
+Yeh 3 sawal pucho:
+
+1. Data kiske paas hai?
+2. Kaun us data ko change karega?
+3. Kaun call karega?
+
+🧠 Example (ATM se)
+Question: withdraw()
+
+👉 Step by step socho:
+
+1. Money kahan hai? → Account
+2. Kaun deduct karega? → Bank/Account
+3. Kaun call karega? → ATM
+
+Passive objects (Book) flow ke beech me nahi aate
+
+# Simple Order:
+
+1. Interfaces
+2. Simple entities/data classes
+3. Container classes (jo dusre objects ko hold/manage karti hain Ex: ParkingLot)
+4. Manager/controller classes
+5. Main()
+
+# Strategy Pattern = "Same action, different ways"
+
+1. Data classes → sirf data/state hold kare
+Example:
+Car, Ticket, Player, Account
+
+2. Manager/Service classes → decisions + flow control kare
+Example:
+ParkingManager, Game, ATM, NotificationManager
+
+3. Brain classes me zyada methods hote hain
+Kyuki wahi system ka flow control karte hain
+
+4. Har class ka ek clear role hona chahiye
+Har class me logic mat daalo
+
+5. Pehle FLOW likho
+Phir decide karo:
+- kaun decision lega?
+- kaun sirf data hold karega?
+
+
+# One-Way HAS-A:
+
+class Car {
+   engine
+}
+
+Engine ko Car ke baare me kuch nahi pata
+
+# Two-Way HAS-A:
+
+Teacher HAS-A Classroom
+Classroom HAS-A Teacher
+
+class Teacher {
+   classroom
+}
+
+class Classroom {
+   teacher
+}
+
+Dono ek dusre ko access kar sakte hain
+
+One-way:
+A knows B
+
+Two-way:
+A knows B
+B knows A
+
+
+# Simple Thinking:
+
+HAS-A means "contains"
+NOT "only this class can access"

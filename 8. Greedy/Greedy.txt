@@ -1,0 +1,35 @@
+
+# EASY
+1. Assign Cookies (455) - ✅ (SLEF) 23 ms Beats 88.60%
+2. Lemonade Change (860) - ✅ (SLEF) 3 ms Beats 54.60%
+3. Maximum Units on a Truck (1710) - ✅ (SLEF) 5 ms Beats 97.20%
+
+# MEDIUM
+
+4. Jump Game (55) - ✅ 2 ms Beats 65.94%
+5. Jump Game II (45) - ✅ 0 ms Beats 100.00%
+6. Minimum Add to Make Parentheses Valid (921) - ✅ (SLEF) 0 ms Beats 100.00%
+7. Non-overlapping Intervals (435) - ✅ (SLEF) 84 ms Beats 32.06%
+8. Gas Station (134) - ✅ 0 ms Beats 100.00%
+9. Task Scheduler (621) - ✅ 8 ms Beats 81.59%
+
+# HARD
+
+10. Candy (135) ** - ✅ 10 ms Beats 24.21%
+11. Minimum Number of Refueling Stops (871) ✅ - 10 ms Beats 82.93%
+12. Minimum Cost to Hire K Workers (857) ** ✅ - 1994 ms Beats 9.09%
+
+
+🧠 Greedy Notes (Final)
+
+👉 Brute force kya hai?
+👉 Kya sab try karna zaroori hai?
+👉 Kya main kuch skip kar sakta hoon?
+
+👉 Kya mujhe abhi decision lena zaroori hai?
+👉 Kya main decision delay karke baad me best choose kar sakta hoon?
+
+💥 Core:
+“Jab majboori ho tab decision lo — aur tab best lo.”
+
+“Socho real world jaisa, solve karo algorithm jaisa.”

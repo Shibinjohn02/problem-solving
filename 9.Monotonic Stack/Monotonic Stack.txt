@@ -1,0 +1,38 @@
+
+# EASY
+
+1. Next Greater Element I (496) - ✅ 2 ms Beats 86.45%
+2. Final Prices With a Special Discount in a Shop (1475) - ✅ (SLEF) 0 ms Beats 100.00%
+
+# MEDIUM
+
+3. Next Greater Element II (503) - ✅ 6 ms Beats 73.83%
+4. Daily Temperatures (503) - ✅ (SELF) 16 ms Beats 68.01%
+5. Online Stock Span (901) -  ✅ 41 ms Beats 94.54%
+6. 132 Pattern (456) - ✅ 7 ms Beats 58.25%
+7. Sum of Subarray Minimums (907) - ✅ 28 ms Beats 36.69%
+8. Asteroid Collision (735) - ✅ (SELF) 5 ms Beats 54.09%
+
+# HARD
+
+9. Largest Rectangle in Histogram (84) - ✅ 15 ms Beats 75.17%
+
+
+
+Monotonic Stack = Remove useless elements early + keep only useful candidates
+
+Ask this:
+“Kya mujhe har element ke liye right ya left me kuch dhoondna hai?”
+YES → Monotonic Stack candidate
+NO → Skip it
+
+
+Monotonic stack usually maintains:
+either increasing nature
+or decreasing nature
+
+meaning:
+elements ek monotonic order follow karte hain
+
+and:
+order break hote hi pop hota hai

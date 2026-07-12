@@ -1,0 +1,49 @@
+Step 1: Identify Entities:
+
+- Game
+- Player
+- Board
+
+Step 2: Add Responsibilities:
+
+Game:
+- startGame()
+- makeMove(player, row, col)
+- switchTurn()
+- checkWinner()
+- isDraw()
+
+Player:
+- symbol (X / O)
+
+Board:
+- placeMove(row, col, symbol)
+- checkCellEmpty(row, col)
+
+
+Step 3: Connect them: How objects are related to each other:
+
+Game HAS-A Board  
+Game HAS-A Players  
+Board HAS-A Cells  
+Player HAS-A Symbol
+
+Step 4: Add features:
+
+Game:
+- players (2)
+- currentPlayerIndex
+- board
+- isGameOver
+
+Player:
+- name
+- symbol
+
+Board:
+- grid (2D array of Cell)
+- size (3x3)
+
+
+##Flow:
+Player → Game → Board → Cell

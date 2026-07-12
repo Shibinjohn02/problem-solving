@@ -1,0 +1,81 @@
+Flow:
+Student → Librarian → Library → Book
+
+Calls:
+Student → requestBook()
+Librarian → Library.issueBook(student, book)
+Library → check availability
+Library → mark book issued
+
+Responsibility:
+Student → request  
+Librarian → approve  
+Library → manage books  
+Book → holds data
+
+Step 1: Identify Entities:
+
+- Library
+- Book
+- Student
+- Librarian
+- LibraryCard
+
+Step 2: Add Responsibilities:
+
+Library:
+- addBook(book)
+- removeBook(book)
+- issueBook(student, book)
+- checkBookAvailable(book)
+
+Book:
+- holds book details
+
+Student:
+- requestBook()
+
+Librarian:
+- approveIssue()
+- manageBooks()
+
+LibraryCard
+- validate()
+
+Step 3: Connect them:
+
+- HAS-A: 
+Library HAS-A List of Books
+Student HAS-A LibraryCard
+Librarian linked-to Library
+Student interacts-with Librarian
+LibraryCard linked-to Student
+
+- IS-A: Not needed here
+
+Step 4: Add Features/Attributes:
+
+Library:
+- books (list)
+- openingTime
+- closingTime
+
+Book:
+- title
+- authorName
+- publishedYear
+- pageCount
+
+Student:
+- id
+- name
+- rollNumber (unique identifier)
+- college (object reference)
+
+Librarian:
+- name
+- college
+
+LibraryCard:
+- studentId
+- validUpto

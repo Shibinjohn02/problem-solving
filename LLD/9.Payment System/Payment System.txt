@@ -1,0 +1,67 @@
+
+Flow:
+User → Payment → PaymentStrategy
+
+Step 1: Identify Entities:
+
+- User
+- Payment
+- PaymentStrategy
+- UPIPayment
+- CardPayment
+- WalletPayment
+
+Step 2: Add Responsibilities:
+
+User:
+- select payment method
+
+Payment:
+- processPayment(amount)
+
+PaymentStrategy:
+- pay(amount)
+
+UPIPayment:
+- pay(amount)
+
+CardPayment:
+- pay(amount)
+
+WalletPayment:
+- pay(amount)
+
+
+Step 3: Connect them: How objects are related to each other:
+
+User initiates Payment
+Payment HAS-A PaymentStrategy
+
+UPIPayment IS-A PaymentStrategy
+CardPayment IS-A PaymentStrategy
+WalletPayment IS-A PaymentStrategy
+
+Step 4: Add Attributes:
+
+User:
+- id
+- name
+
+Payment:
+- amount
+- paymentStrategy
+
+PaymentStrategy:
+(no attributes needed)
+
+UPIPayment:
+- upiId
+
+CardPayment:
+- cardNumber
+- cvv
+- expiryDate
+
+WalletPayment:
+- walletId
+- balance

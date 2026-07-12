@@ -1,0 +1,47 @@
+
+### Easy (5)
+
+1. Move Zeroes - ✅
+2. Remove Element ← (current) - ✅
+3. Squares of a Sorted Array  - ✅
+4. Merge Sorted Array - ✅
+5. Reverse Only Letters - ✅
+
+### Medium (5)
+
+1. Two Sum II (sorted) - ✅
+2. 3Sum - ✅
+3. Container With Most Water - ✅
+4. Partition Labels
+5. Remove Duplicates from Sorted Array II
+
+### Hard (5)
+
+1. Trapping Rain Water
+2. Minimum Window Subsequence
+3. Sliding Window Median
+4. Merge K Sorted Lists (pointer merging approach)
+5. First Missing Positive (pointer-compaction trick)
+
+
+| Strategy | Description | Movement | Example Use Case |
+| 1. Converging Pointers | Pointers start at opposite ends of the data structure. | They move inward toward each other until they meet or cross. | Checking if a string is a palindrome. |
+| 2. Parallel Pointers | Both pointers start at the same end (usually the beginning). | They move in the same direction. | Sliding Window Technique. The right pointer explores new information, while the left pointer tracks progress or maintains constraints. |
+| 3. Trigger-Based Pointers | The first pointer moves independently until a condition is met (the "trigger"). | After the condition is met, the second pointer begins traversing to find related information. | Finding the $n^{th}$ node from the end of a linked list. |
+
+Two Pointers
+├── Converging (Opposite Direction)
+│   ├── Meet-in-the-Middle (Two Sum II, Container With Most Water)
+│   └── Palindrome / Symmetric Check
+│
+└── Parallel (Same Direction)
+    ├── Sliding Window (Variable / Trigger-Based)
+    │   └── Min/Max length subarray/substring, expand + shrink window
+    ├── Fixed Window
+    │   └── Window size = k, max/min sum/average
+    ├── Fast–Slow Pointers
+    │   └── Cycle detection, remove duplicates
+    ├── Read/Write (In-place overwrite)
+    │   └── Move Zeroes, Remove Duplicates, Sort Array by Parity
+    └── Multi-pointer / K-pointer
+        └── 3Sum, 3Sum Closest, Merge K Sorted Arrays

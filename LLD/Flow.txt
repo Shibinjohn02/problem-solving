@@ -1,0 +1,72 @@
+
+
+### Flow → Call → Responsibility:
+
+Step 1: Flow likho
+User → ATM → Bank → Account
+
+
+Step 2: Calls likho
+- ATM calls Bank  
+- Bank updates Account
+
+
+Step 3: Responsibility fix karo
+ATM → handles interaction  
+Bank → handles logic  
+Account → holds data
+
+
+Example: withdraw()
+Flow:
+User → ATM → Bank → Account
+
+Calls:
+ATM → Bank.debit()
+Bank → Account.debit()
+
+Responsibility:
+ATM → request bhejta hai  
+Bank → validate + process karta hai  
+Account → balance update karta hai
+
+====================================================================================================================
+====================================================================================================================
+
+# Requirements Gathering:
+
+## Extensible
+
+1. What types of vehicles should our system support?
+   - The system should be extensible to support different vehicle types such as bikes, cars, trucks, bus, etc.
+
+2. Can a parking spot accommodate any vehicle type?
+   - No, each parking spot supports a specific vehicle type.
+
+3. How to calculate the prices for parking?
+   - The system should support multiple pricing strategies like:
+     - Time-based (with peak/non-peak pricing)
+     - Event-based (concerts, weekends, etc.)
+
+4. Should the system support multiple payment methods?
+   - Yes. The system must be extendable to accommodate various payment methods such as UPI, Credit Card, Cash, etc.
+
+
+## Dynamic
+
+1. How many floors and parking slots can the parking lot have?
+   - The system should allow dynamic configuration of floors and slots per floor. Each slot must be mapped to a ve*(text cut off)*
+
+2. How many gates should our system support?
+   - The system should support multiple entry and exit gates.
+   - A ticket should be generated at entry, containing vehicle details, entry timestamp, etc.
+   - At exit, this ticket will be used to calculate the final cost
+
+
+## Concurrency
+
+1. Are we building a system for just one physical parking lot or do we want to scale it to multiple lots in future?
+   - Single.
+
+2. Do we need to ensure that no two vehicles get the same parking spot?
+   - (Yes) The system should use proper locking mechanisms or synchronized access to parking slot assignment.

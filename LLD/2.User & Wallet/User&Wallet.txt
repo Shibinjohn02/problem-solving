@@ -1,0 +1,45 @@
+
+
+LLD for User & Wallet Design. Kindly review it once, 
+
+Step 1: Identify Entities:
+
+- User
+- Wallet
+
+Step 2. Add Responsibilities:
+
+User:
+- viewBalance()
+
+Wallet:
+- addMoney(amount)
+- deductMoney(amount)
+- getBalance()
+
+Step 3: Connect them:
+
+- HAS-A: User HAS-A Wallet
+- IS-A: Not needed here
+
+Step 4: Add Features/Attributes: (Features = Responsibilities = Methods)
+
+Attributes:
+
+User:
+- id
+- name
+- wallet
+
+Wallet:
+- balance
+
+Features:
+
+User:
+- viewBalance()
+
+Wallet:
+- addMoney(amount)
+- deductMoney(amount)
+- getBalance()

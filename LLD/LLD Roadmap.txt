@@ -1,0 +1,47 @@
+
+Step 1: Identify Entities
+Vehicle
+ParkingLot
+Floor
+Spot
+Ticket
+
+Step 2: Add Responsibilities
+Vehicle → type
+Spot → park/unpark
+Ticket → entry/exit
+
+Step 3: Connect them: How objects are related to each other
+
+Step 4: Add features
+Pricing
+Strategy
+Optimization
+
+### LEVEL 1: SUPER BASIC
+
+1. Design a Pen ✅
+2. Design a User & Wallet ✅
+3. Design a Car ✅
+
+### LEVEL 2: SMALL SYSTEMS ✅
+
+4. Design ATM (Basic) ✅
+5. Design Library System (Very Basic) ✅
+
+### LEVEL 3: CORE LLD
+
+6. Tic Tac Toe ✅
+7. Snake & Ladder ✅
+8. Logging System ✅
+
+LEVEL 4: INTRO TO PATTERNS
+
+9. Design Payment System → Strategy ✅
+10. Design Notification System → Observer ✅
+
+### LEVEL 5: NOW COME TO YOUR LIST
+
+11. Parking Lot ✅
+12. Car Rental
+13. Elevator

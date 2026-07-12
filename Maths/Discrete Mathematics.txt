@@ -1,0 +1,95 @@
+
+
+# 📦 Set Theory
+
+* L-1.1: Introduction to Set Theory | Set, Subset, Proper Subset ✅
+  Solve after this:
+
+  * Contains Duplicate
+  * Intersection of Two Arrays
+
+* L-1.2: Power Set | Set Theory & Algebra ✅
+  Solve after this:
+
+  * Subsets (must do)
+
+# 🔗 Relations
+
+* L-2.1: Relation in Set Theory with examples ✅
+  Solve:
+
+  * Find if Path Exists in Graph
+
+* L-2.2: Reflexive Relation with examples ✅
+Solve:
+
+  * Number of Provinces
+
+* L-2.3: How Many Reflexive Relations Possible ❌
+
+* L-2.4: Irreflexive Relation with examples ❌
+
+* L-2.5: Symmetric Relation with examples ✅
+  Solve:
+
+  * Number of Provinces (revisit thinking)
+
+* Antisymmetric Relation with examples ❌
+
+* Asymmetric vs Antisymmetric Relation ❌
+
+* Transitive Relation with examples ✅
+  Solve:
+
+  * Find if Path Exists in Graph (revisit with new understanding)
+
+* Equivalence Relation in Discrete Mathematics ✅
+  Solve:
+
+  * Accounts Merge (VERY IMPORTANT)
+
+* Partial Order Relation | POSET ❌
+
+* Totally Ordered Set ❌
+
+* Comparison of All Relations ❌
+
+# 🧱 Group Theory (SKIP ALL)
+
+* Introduction to Group Theory ❌
+* Algebraic structure ❌
+* Semigroup ❌
+* Monoid ❌
+* Group ❌
+* Abelian Group ❌
+
+# 🔁 Functions
+
+* Function in Discrete Mathematics ✅
+  Solve:
+
+  * Two Sum
+
+* How many Functions Possible ❌
+
+* One to One Function (Injection) ✅
+  Solve:
+
+  * Isomorphic Strings 🔥
+
+* ONTO Function (Surjection) ✅
+  Solve:
+
+  * Word Pattern
+
+* Bijective Function (Bijection) ✅
+  Solve:
+
+  * Group Anagrams
+
+# 🎯 Final View (What you actually do)
+
+👉 Total:
+
+* ✅ ~11 topics (HIGH ROI)
+* ❌ skip rest (saves time + avoids burnout)

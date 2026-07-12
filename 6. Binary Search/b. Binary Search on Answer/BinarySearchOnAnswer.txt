@@ -1,0 +1,24 @@
+
+
+EASY (Intro to the Pattern)
+
+1. Sqrt(x) - ✅ 1 ms Beats 74.12%
+2. Valid Perfect Square - ✅ (SELF) 0 ms 100.00%
+
+MEDIUM (Core Interview Problems)
+
+3. Koko Eating Bananas - ✅ (SELF) 10 ms Beats 50.62%
+4. Capacity To Ship Packages Within D Days - ✅ (SELF) 9 ms Beats 95.73%
+5. Minimum Number of Days to Make m Bouquets - ✅ (HALF SELF) 16 ms Beats 93.47%
+6. Magnetic Force Between Two Balls - ✅ (SELF) 133 ms Beats 5.06%
+
+HARD (Understand Only)
+
+7. Minimum Time to Complete Tasks - ✅ 117 ms Beats 25.00%
+8. Maximum Candies Allocated to K Children - ✅ (SELF) 28 ms Beats 72.46%
+9. Split Array Largest Sum - ✅ (SELF) 1 ms Beats 87.36%
+
+
+
+Note:
+In BS on Answer → optimize the check function first, then the search space

@@ -1,0 +1,58 @@
+
+# EASY
+
+1. Last Stone Weight (1046) - ✅ (SELF) 4 ms Beats 51.22%
+2. Kth Largest Element in a Stream (703) - ✅ 25 ms Beats 80.73%
+
+# MEDIUM
+
+3. Kth Largest Element in an Array (215) - ✅ (SELF) 70 ms Beats 58.46%
+4. Top K Frequent Elements (347) - ✅ (SELF)  17 ms Beats 34.95%
+5. Find K Closest Elements (658) - ✅ 57 ms Beats 5.22%
+6. Task Scheduler (621) - ✅ 34 ms Beats 42.34%
+7. Furthest Building You Can Reach (1642) - ✅ 24 ms Beats 100.00%
+8. Process Tasks Using Servers (1882) - ✅ (HALF SELF) 453 ms Beats 85.71%
+9. Single-Threaded CPU (1834) - ✅ 431 ms Beats 36.11%
+
+# HARD
+
+10. Find Median from Data Stream (295) - ✅ 136 ms Beats 85.26%
+
+
+
+# Think Heap when:
+
+“Top K”
+“Smallest / Largest repeatedly”
+Streaming data
+Need quick min/max access
+Scheduling problems
+
+
+# Heap ka kaam hi hota hai:
+
+“Mujhe repeatedly largest element efficiently do.”
+“Main pura order maintain nahi karunga… bas largest quickly dunga.”
+
+
+# Heap: sirf best/top element maintain karta hai
+
+Isi wajah se:
+insert → O(log n)
+remove top → O(log n)
+peek top → O(1)
+
+# Heap ko aise socho:
+“VIP queue”
+
+Sab log sorted nahi hain.
+
+Bas:
+sabse important banda front pe hona chahiye.
+
+
+# MENTAL MODEL
+
+Operation	Direction
+insert	    bottom → up
+remove	    top → down

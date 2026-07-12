@@ -1,0 +1,46 @@
+
+Design a Pen:
+
+Step 1: Identify Entities:
+
+Pen
+Ink
+
+Step 2. Add Responsibilities
+
+Pen:
+- write()
+- refill()
+
+Ink:
+- provideInk()
+
+Step 3: Connect them
+
+1. HAS-A:
+Pen HAS-A Ink
+
+2. IS-A
+Not needed here
+
+Step 4: Add Features/Attributes:
+
+Attributes:
+Pen:
+- color
+- size
+- price
+
+Ink:
+- color
+
+Features:
+write()
+refill()
+
+
+1. Edge Cases
+- What if ink finishes?
+- Can pen be refilled?
+2. Extensibility
+- Can I add FountainPen later?

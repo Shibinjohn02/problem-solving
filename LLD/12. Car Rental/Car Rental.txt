@@ -1,0 +1,103 @@
+
+Flow:
+User → Select Location → Search Vehicle → Select Vehicle → Booking → Payment → Invoice
+
+Step 1: Identify Entities
+- Vehicle
+- Car
+- Bike
+- Truck
+- User
+- Booking
+- RentalManager
+- Location
+- Invoice
+- Payment
+- PaymentStrategy
+- FareStrategy
+
+Step 2: Add Responsibilities
+
+Vehicle:
+(no responsibilities needed)
+
+User:
+- hold vehicle availability
+
+Booking:
+- confirmBooking(user: User, vehicle: Vehicle)
+- cancelBooking(bookingId: int)
+- getBookingStatus(bookingId: int)
+
+RentalManager:
+- searchVehicle()
+- bookVehicle()
+- cancelBooking()
+- returnVehicle()
+
+Location:
+- hold vehicle availability
+
+Invoice: 
+- generateInvoice(booking: Booking)
+- getInvoice(booking: Booking)
+
+Payment:
+- processPayment()
+
+PaymentStrategy:
+- pay(amount)
+
+FareStrategy:
+- calculateFare(ticket)
+
+Step 3: Connect them: How objects are related to each other
+
+Booking HAS-A User
+Booking HAS-A Vehicle
+Booking HAS-A Invoice
+
+Payment HAS-A PaymentStrategy
+
+Car IS-A Vehicle
+Bike IS-A Vehicle
+Truck IS-A Vehicle
+
+Step 4: Add Attributes:
+
+User:
+ - id,
+ - name
+ - location
+
+Vehicle:
+- model
+- licenseNumber
+- isAvailable
+
+Payment:
+- amount
+- paymentStrategy
+
+Booking:
+- id
+- user
+- vehicle
+- pickupLocation
+- startDate
+- endDate
+- status
+- totalAmount
+
+Location:
+- id
+- name
+- address
+- vehicles
+- city
+- pincode
+- contactNumber
+
+RentalManager:
+- id
+- name

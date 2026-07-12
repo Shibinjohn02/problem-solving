@@ -1,0 +1,92 @@
+
+
+# SLIDING WINDOW MASTER PLAN
+
+(15 Easy → 8 Medium → 2 Hard)
+
+> Goal: Learn when to expand, when to shrink, and what invariant you are maintaining
+
+## 🟩 PHASE 1 — EASY (15 problems)
+
+Goal: Understand *fixed window* and *simple variable window*
+
+### Start with FIXED WINDOW (Very important)
+
+1. Maximum Average Subarray I - ✅ (SELF) 6 ms Beats 16.97%
+2. Contains Duplicate II - ✅
+3. Substrings of Size Three with Distinct Characters - ✅ 5 ms Beats 18.75%
+4. Minimum Difference Between Highest and Lowest of K Scores - ✅ 13 ms Beats 13.91%
+ 
+### Then VARIABLE WINDOW
+
+5. Longest Substring Without Repeating Characters - ✅ 7 ms Beats 58.06%
+6. Maximum Number of Vowels in a Substring of Given Length - ✅ 22 ms Beats 29.49%
+7. Maximum Consecutive Ones III - ✅ 4 ms Beats 44.18%
+8. Binary Subarrays With Sum -  ✅
+9. Subarray Product Less Than K *(watch solution if needed)* - ✅ (SELF) 2 ms Beats 98.32%
+10. Number of Substrings Containing All Three Characters - ✅ 24 ms Beats 59.31%
+
+
+## 🟦 PHASE 2 — MEDIUM (8 problems)
+
+Goal: Master *expand → violate → shrink → restore invariant*
+
+### Recommended Medium Order
+
+1. Fruit Into Baskets - ✅ (SELF) 36 ms Beats 58.54%
+2. Minimum Size Subarray Sum - ✅ (SELF) 2 ms Beats 87.08%
+3. 424. Longest Repeating Character Replacement - Tried but got TLE error watched the soltuion
+   2024. Maximize the Confusion of an Exam - ✅ 
+   2958. Length of Longest Subarray With at Most K Frequency - 
+4. Max Consecutive Ones III - ✅ 
+5. Longest Subarray of 1s After Deleting One Element - ✅ (SELF) 1 ms Beats 92.75%
+6. Replace the Substring for Balanced String - ✅ 39 ms Beats 42.11%
+7. Permutation in String - ✅
+8. Find All Anagrams in a String - ✅ (SELF) 8 ms Beats 93.43%
+
+👉 Success metric:
+Not “I solved it”
+But “I know exactly when and why window shrinks”
+
+## 🟥 PHASE 3 — HARD (2 problems)
+
+⚠️ Do NOT try to solve from scratch
+
+### Just understand:
+
+1. Minimum Window Substring - Watched and understood the approach and solution
+2. Sliding Window Median - Revisit After First Passs 🔄
+
+👉 Focus only on:
+
+* Window invariant
+* Data structure used
+* Why brute force fails
+
+If these start feeling “less scary” → you’re winning.
+
+## 🧠 Sliding Window Mental Model (IMPORTANT)
+
+Every Sliding Window problem answers only 3 questions:
+
+1. What am I tracking?
+   (sum / count / frequency / distinct chars)
+
+2. When is window invalid?
+   (condition breaks)
+
+3. How do I restore validity?
+   (shrink from left)
+
+If you answer these → solution appears.
+
+
+ONE PROPER TAKEAWAY (for (right - left + 1) type questions):
+
+When the window is valid and the constraint is monotonic (only gets worse when expanding), then every subarray ending at right and starting anywhere from left to right is valid.
+
+
+Sliding window relies on monotonicity:
+
+Expanding window → sum increases or stays same
+Shrinking window → sum decreases or stays same

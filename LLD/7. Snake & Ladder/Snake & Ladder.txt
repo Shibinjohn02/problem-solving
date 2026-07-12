@@ -1,0 +1,72 @@
+
+## Flow:  Player → Game → Board → Snake → Ladder  
+
+Step 1: Identify Entities:
+
+- Game
+- Player
+- Board
+- Dice
+- Snake
+- Ladder
+
+Step 2: Add Responsibilities:
+
+Game:
+- startGame()
+- makeMove()
+- switchTurn()
+- checkWinner()
+
+Player:
+- position
+
+Board:
+- getNewPosition(position)
+- checkSnakeOrLadder(position)
+
+Dice:
+- roll()
+
+Snake:
+- moveDown(position)
+
+Ladder:
+- moveUp(position)
+
+Step 3: Connect them: How objects are related to each other:
+
+Game HAS-A Players
+Game HAS-A Board
+Game HAS-A Dice
+Board HAS-A Snakes
+Board HAS-A Ladders
+
+Step 4: Add features:
+
+Game:
+- players (2)
+- currentPlayerIndex
+- board
+- isGameOver
+
+Player:
+- name
+- position
+
+Board:
+- size
+- snakes (list)
+- ladders (list)
+
+Dice:
+- color
+- sides
+
+Snake:
+- start
+- end
+
+Ladder:
+- start
+- end
