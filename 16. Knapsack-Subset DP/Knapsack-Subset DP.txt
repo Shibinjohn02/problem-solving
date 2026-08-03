@@ -1,0 +1,20 @@
+
+## Knapsack / Subset DP Roadmap
+
+1. Partition Equal Subset Sum (416) - ✅ (HALF SLEF) 376 ms Beats 28.55%
+2. Target Sum (494) - ✅  92 ms Beats 51.17%
+3. Coin Change II (518) - ✅ (SELF) 1305 ms Beats 20.00%
+4. Last Stone Weight II (1049) - ⏸️ Deferred (Will Revisit)
+5. Ones and Zeroes (474) - ✅ 1514 ms Beats 9.52%
+6. Combination Sum IV (377) - ✅ 55 ms Beats 28.03%
+
+# Understand Only:
+7. Profitable Schemes (879) - ✅ (HALF SLEF) 281 ms Beats 10.00%
+
+
+Pehle sirf ye 4 questions answer karna:
+
+1. State kya hogi?
+2. Choices kya hongi?
+3. Function kya return karega?
+4. Base case kya hogi?
