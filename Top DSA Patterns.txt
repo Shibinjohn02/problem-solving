@@ -26,6 +26,6 @@
 
 ## PHASE 4 — DYNAMIC PROGRAMMING
 
-15. 1D Dynamic Programming
-16. Knapsack / Subset DP
-17. LIS / LCS Patterns
+15. 1D Dynamic Programming → COMPLETE ✅
+16. Knapsack / Subset DP → COMPLETE ✅
+17. LIS / LCS Patterns → COMPLETE ✅

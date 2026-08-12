@@ -1,0 +1,58 @@
+
+
+# MEDIUM
+
+1. Longest Increasing Subsequence (300) - ✅ (HALF SELF) 1694 ms Beats 5.06%
+2. Number of Longest Increasing Subsequence (673) - ⏸️ Deferred (Will Revisit)
+3. Longest Common Subsequence (1143) - ✅ 86 ms Beats 22.04%
+4. Uncrossed Lines (1035) - ✅ 177 ms Beats 8.00%
+5. Edit Distance (72) - ✅ 20 ms Beats 11.88%
+
+# HARD
+
+6. Shortest Common Supersequence (1092) - ✅ 861 ms Beats 6.12% (Wrote the base case correctly)
+
+
+
+## One clarification:
+
+This pattern actually combines two related but distinct families:
+
+LIS (Longest Increasing Subsequence) → works on a single array.
+LCS (Longest Common Subsequence) → works on two strings/arrays.
+
+
+## LCS:
+
+Match?
+
+↓
+
+Yes
+
+Take both
+
+↓
+
+No
+
+Skip first
+
+Skip second
+
+
+## LIS:
+
+Current > Previous?
+
+↓
+
+Yes
+
+Take
+
+↓
+
+No
+
+Skip
