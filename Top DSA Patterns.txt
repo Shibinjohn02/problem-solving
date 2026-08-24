@@ -8,24 +8,25 @@
 3. Prefix Sum → COMPLETE ✅
 4. Hashing / Frequency Maps → COMPLETE ✅
 5. Kadane’s Algorithm → COMPLETE ✅
-6. Binary Search (Array + Answer) → COMPLETE ✅
-7. Fast & Slow Pointers → COMPLETE ✅
-8. Sorting + Greedy → COMPLETE ✅
+6. Binary Search on Array → COMPLETE ✅
+7. Binary Search on Answer → COMPLETE ✅
+8. Fast & Slow Pointers → COMPLETE ✅
+9. Sorting + Greedy → COMPLETE ✅
 
 ## PHASE 2 — CORE PATTERNS (Very Important)
 
-9. Monotonic Stack → COMPLETE ✅
-10. Heaps / Priority Queue → COMPLETE ✅
-11. Interval Problems → COMPLETE ✅
+10. Monotonic Stack → COMPLETE ✅
+11. Heaps / Priority Queue → COMPLETE ✅
+12. Interval Problems → COMPLETE ✅
 
 ## PHASE 3 — GRAPHS & TREES (Must Do)
 
-12. Graph BFS → COMPLETE ✅
-13. Graph DFS → COMPLETE ✅
-14. Topological Sort → COMPLETE ✅
+13. Graph BFS → COMPLETE ✅
+14. Graph DFS → COMPLETE ✅
+15. Topological Sort → COMPLETE ✅
 
 ## PHASE 4 — DYNAMIC PROGRAMMING
 
-15. 1D Dynamic Programming → COMPLETE ✅
-16. Knapsack / Subset DP → COMPLETE ✅
-17. LIS / LCS Patterns → COMPLETE ✅
+16. 1D Dynamic Programming → COMPLETE ✅
+17. Knapsack / Subset DP → COMPLETE ✅
+18. LIS / LCS Patterns → COMPLETE ✅

@@ -23,6 +23,32 @@
 // Input: str1 = "aaaaaaaa", str2 = "aaaaaaaa"
 // Output: "aaaaaaaa"
 
+/*
+                            solve(0,0)
+                              a ≠ b
+                         /              \
+                   choose 'a'        choose 'b'
+                       |                  |
+                       ↓                  ↓
+                  solve(1,0)          solve(0,1)
+                    b = b                a ≠ c
+                       |              /          \
+                       |        choose 'a'     choose 'c'
+                       |            |              |
+                       ↓            ↓              ↓
+                  "b" + solve(2,1) solve(1,1)   solve(0,2)
+                       |              |              |
+                       ↓              ↓              ↓
+                       "b" + "c"    b ≠ c          "ab"
+                       |          /      \
+                       ↓     choose b    choose c
+                      "bc"       |          |
+                                 ↓          ↓
+                            solve(2,1)   solve(1,2)
+                                 |          |
+                                 ↓          ↓
+                                "c"        "b"
+*/
 /**
  * @param {string} str1
  * @param {string} str2
