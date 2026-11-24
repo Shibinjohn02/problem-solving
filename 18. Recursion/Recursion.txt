@@ -1,0 +1,86 @@
+## Recursion – LeetCode Problems
+
+### Easy (10)
+
+| #    | Problem                                  | Acceptance | Difficulty |
+| ---- | ---------------------------------------- | ---------- | ---------- |
+| 21   | Merge Two Sorted Lists                   | 69.1%      | Easy       | ✅ 1 ms Beats 39.86%
+| 203  | Remove Linked List Elements              | 55.9%      | Easy       | ✅ 1 ms Beats 46.48% (SELF)
+| 206  | Reverse Linked List                      | 81.2%      | Easy       | ✅ 0 ms Beats 100.00%
+| 231  | Power of Two                             | 50.7%      | Easy       | ✅ 3 ms Beats 6.16% (SELF)
+| 234  | Palindrome Linked List                   | 59.0%      | Easy       | ✅ 22 ms Beats 18.02% (PARTIALLY SOLVED)
+| 326  | Power of Three                           | 51.7%      | Easy       | ✅ 13 ms Beats 42.58% (SELF)
+| 342  | Power of Four                            | 52.9%      | Easy       | ✅ 2 ms Beats 15.71% (SELF)
+| 509  | Fibonacci Number                         | 74.8%      | Easy       | ✅ 71 ms Beats 20.12% (SELF)
+| 2094 | Finding 3-Digit Even Numbers             | 78.8%      | Easy       | ✅ 4 ms Beats 88.89%
+| 3304 | Find the K-th Character in String Game I | 81.7%      | Easy       | ✅ 4 ms Beats 55.56% (SELF)
+| 3483 | Unique 3-Digit Even Numbers              | 80.0%      | Easy       | ✅ 7 ms Beats 39.73% (SELF)
+
+### Medium (25)
+
+| #    | Problem                                        | Acceptance | Difficulty |
+| ---- | ---------------------------------------------- | ---------- | ---------- |
+| 2    | Add Two Numbers                                | 49.7%      | Medium     | ✅ 4 ms Beats 50.44% (PARTIALLY SOLVED)
+| 24   | Swap Nodes in Pairs                            | 70.5%      | Medium     | ✅ 0 ms Beats 100.00%
+| 50   | Pow(x, n)                                      | 39.1%      | Medium     | ✅ 0 ms Beats 100.00%
+| 143  | Reorder List                                   | 66.6%      | Medium     | ✅ 4 ms Beats (PARTIALLY SOLVED)
+19.54%
+| 241  | Different Ways to Add Parentheses              | 73.8%      | Medium     |
+| 247  | Strobogrammatic Number II                      | 53.6%      | Medium     |
+| 255  | Verify Preorder Sequence in Binary Search Tree | 51.9%      | Medium     |
+| 390  | Elimination Game                               | 46.9%      | Medium     |
+| 394  | Decode String                                  | 63.4%      | Medium     |
+| 439  | Ternary Expression Parser                      | 62.8%      | Medium     |
+| 486  | Predict the Winner                             | 60.1%      | Medium     |
+| 544  | Output Contest Matches                         | 77.6%      | Medium     |
+| 776  | Split BST                                      | 82.1%      | Medium     |
+| 779  | K-th Symbol in Grammar                         | 48.9%      | Medium     |
+| 894  | All Possible Full Binary Trees                 | 82.8%      | Medium     |
+| 1265 | Print Immutable Linked List in Reverse         | 94.1%      | Medium     |
+| 1545 | Find Kth Bit in Nth Binary String              | 73.7%      | Medium     |
+| 1823 | Find the Winner of the Circular Game           | 82.4%      | Medium     |
+| 1922 | Count Good Numbers                             | 58.3%      | Medium     |
+| 1969 | Minimum Non-Zero Product of the Array Elements | 37.9%      | Medium     |
+| 2487 | Remove Nodes From Linked List                  | 75.4%      | Medium     |
+| 2550 | Count Collisions of Monkeys on a Polygon       | 30.7%      | Medium     |
+| 3565 | Sequential Grid Path Cover                     | 59.7%      | Medium     |
+| 3566 | Partition Array into Two Equal Product Subsets | 35.3%      | Medium     |
+| 3483 | Unique 3-Digit Even Numbers                    | 79.9%      | Medium     |
+
+### Hard (16)
+
+| #    | Problem                                                      | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 10   | Regular Expression Matching                                  | 32.1%      | Hard       |
+| 25   | Reverse Nodes in k-Group                                     | 67.6%      | Hard       |
+| 44   | Wildcard Matching                                            | 33.2%      | Hard       |
+| 60   | Permutation Sequence                                         | 54.8%      | Hard       |
+| 224  | Basic Calculator                                             | 47.3%      | Hard       |
+| 233  | Number of Digit One                                          | 40.3%      | Hard       |
+| 248  | Strobogrammatic Number III                                   | 42.7%      | Hard       |
+| 273  | Integer to English Words                                     | 35.4%      | Hard       |
+| 736  | Parse Lisp Expression                                        | 54.2%      | Hard       |
+| 770  | Basic Calculator IV                                          | 49.9%      | Hard       |
+| 772  | Basic Calculator III                                         | 53.6%      | Hard       |
+| 1106 | Parsing A Boolean Expression                                 | 69.8%      | Hard       |
+| 1611 | Minimum One Bit Operations to Make Integers Zero             | 78.2%      | Hard       |
+| 1808 | Maximize Number of Nice Divisors                             | 37.8%      | Hard       |
+| 3307 | Find the K-th Character in String Game II                    | 48.2%      | Hard       |
+| 3782 | Last Remaining Integer After Alternating Deletion Operations | 46.5%      | Hard       |
+
+
+
+Iske 3 important principles hain:
+1. Base Case: Kab recursion ko stop karna hai?
+2. Recursive Case: Problem ko chhota karke khud ko dobara call kaise karna hai?
+3. Trust the Recursive Call: Assume karo ki chhoti problem ka answer recursive call correctly de dega. Tumhe bas us answer ka use karke current problem solve karni hai.
+
+
+
+Recursion identify kaise karein?
+Kisi problem ko padhte waqt yeh 3 questions khud se poochho:
+1. Kya main original problem ko same type ke chhote subproblems mein divide kar sakta hoon?
+2. Kya har subproblem ka answer, uske smaller subproblems ke answers se ban sakta hai?
+3. Kya koi clear base case hai jahan answer directly mil jaata hai?
+
+Note: "Kya mai is problem ka smaller version solve karke current problem solve kar sakta hoon?"
